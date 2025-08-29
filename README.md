@@ -1,4 +1,4 @@
-![Scala CI](https://github.com/EricSpencer00/echotest-scala/actions/workflows/scala.yml/badge.svg)
+![Scala CI](https://github.com/EricSpencer00/echotest-scala/actions/workflows/scala.yml/badge.svg) 
 
 
 # Overview
