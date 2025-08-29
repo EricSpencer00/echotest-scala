@@ -17,6 +17,10 @@ jobs:
       with:
         distribution: 'temurin'
         java-version: '21'
+    - name: Install sbt
+      uses: coursier/setup-action@v1
+      with:
+        apps: sbt
     - name: Run tests
       run: sbt coverage test coverageReport
     - name: Submit coverage report
