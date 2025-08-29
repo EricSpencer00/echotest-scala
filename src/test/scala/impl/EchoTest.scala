@@ -17,7 +17,7 @@ class EchoTest extends AnyFunSuite:
     assert((new SimpleEcho).echo("hello") == "hello")
 
   test("A double echo should echo twice an empty argument"):
-    assert((new DoubleEcho).echo("") == "")
+    assert((new DoubleEcho).echo("") == "  ")
 
   test("A double echo should echo twice a nonempty argument"):
     assert((new DoubleEcho).echo("hello") == "hello  hello")
