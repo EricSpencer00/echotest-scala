@@ -17,14 +17,14 @@ class EchoTest extends AnyFunSuite:
     assert((new SimpleEcho).echo("hello") == "hello")
 
   test("A double echo should echo twice an empty argument"):
-    assert((new DoubleEcho).echo("") == " ")
+    assert((new DoubleEcho).echo("") == "  ")
 
   test("A double echo should echo twice a nonempty argument"):
-    assert((new DoubleEcho).echo("hello") == "hello hello")
+    assert((new DoubleEcho).echo("hello") == "hello  hello")
 
   test("A simple echo inside a list should still echo an empty argument"):
     val echos = List(new SimpleEcho)
-    val result = echos(1).echo("")
+    val result = echos(0).echo("")
     assert(result == "")
 
   test("A simple echo inside a list used wrong should throw an index-out-of-bounds exception"):

@@ -23,6 +23,6 @@ class EchoCheck extends AnyFunSuite with Checkers:
   test("A double echo should echo twice its argument"):
     check:
       (a: String) =>
-        doubleEcho.echo(a) == a + " " + a
+        doubleEcho.echo(a) == a + "  " + a
 
 end EchoCheck

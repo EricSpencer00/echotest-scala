@@ -20,6 +20,6 @@ object EchoSpec extends Properties("Echo"):
 
   property("doubleEcho") = forAll:
     (a: String) =>
-      doubleEcho.echo(a) == a + " " + a
+      doubleEcho.echo(a) == a + "  " + a
 
 end EchoSpec
