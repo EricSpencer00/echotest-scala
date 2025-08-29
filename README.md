@@ -1,3 +1,6 @@
+![Scala CI](https://github.com/EricSpencer00/echotest-scala/actions/workflows/scala.yml/badge.svg)
+
+
 # Overview
 
 Very simple example including an App and a few tests 
